@@ -1,0 +1,130 @@
+.websters-select {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: relative;
+  width: 139px;
+  margin-right: 3px;
+  height: 36px;
+  background: #002d6b;
+  cursor: pointer;
+
+  &_opened {
+
+    .websters-select__arrow:before {
+      top: 10px;
+      transform: rotate(180deg);
+    }
+
+  }
+
+  &__arrow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    transform-origin: center;
+    -webkit-transition: -webkit-transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
+
+    &:before {
+      position: absolute;
+      top: 16px;
+      left: 6px;
+      height: 0;
+      width: 0;
+      border: solid transparent;
+      pointer-events: none;
+      border-color: rgba(163, 163, 163, 0);
+      border-top-color: #fff;
+      border-width: 5px;
+      content: '';
+      -webkit-transition: all 200ms ease;
+      transition: all 200ms ease;
+    }
+  }
+
+  &__item {
+    overflow: hidden;
+    @include absoluteCenterY();
+    right: 20px;
+    left: 5px;
+    padding: 1px 5px 0;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    color:#dddee0;
+    font-size: 13px;
+  }
+
+  &_mobile {
+
+    select {
+      position: absolute;
+      top: 0;
+      bottom: -1px;
+      left: 1px;
+      width: 100%;
+    }
+
+  }
+
+  &_custom {
+
+    select {
+      position: absolute;
+      left: -100000px;
+    }
+
+  }
+
+  &__popup {
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    box-sizing: border-box;
+    background: $websters-select-popup-back;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.23);
+
+    ul {
+      z-index: 1;
+    }
+
+    li {
+      white-space: nowrap;
+      overflow: hidden;
+      padding: 0 0 0 10px;
+      color:#dddee0;
+      font-size: 13px;
+      cursor: pointer;
+      line-height: 33px;
+      border-bottom: 1px solid $websters-select-border;
+      font-family: "Trebuchet MS", sans-serif;
+
+      &:hover {
+        background: $websters-select-popup-item-active-back;
+      }
+
+      &.active {
+        background: $websters-select-popup-item-active-back !important;
+      }
+
+    }
+
+  }
+}
+@media (min-width: $tablet-portrait) {
+  .websters-select {
+    width: 127px;
+  }
+}
+@media (min-width: $tablet-landscape) {
+  .websters-select {
+    height: 33px;
+    width: 128px;
+  }
+}
+

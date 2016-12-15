@@ -1,0 +1,73 @@
+.tooltip{
+}
+.tooltip__wrap{
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 5;
+  width:100%;
+  left: 0;
+  bottom: 45px;
+  padding: 10px;
+  border: 1px solid rgb(169, 204, 226);
+  background: rgb(3, 35, 71);
+  font-size: 12px;
+  color: #fff;
+  line-height: 16px;
+  text-align: left;
+  text-transform: none;
+  transition: visibility .3s ease, opacity .3s ease;
+  -webkit-transition: visibility .3s ease, opacity .3s ease;
+}
+.tooltip__wrap:after {
+  position: absolute;
+  top: calc(100% - 4px);
+  left: 50%;
+  margin-left: -5px;
+  width: 10px;
+  height: 11px;
+  background: url("../img/tooltip.png") no-repeat center;
+  content: '';
+}
+.tooltip:hover .tooltip__wrap {
+  visibility: visible;
+  opacity: 1;
+}
+.game__valid-title .tooltip__wrap{
+  bottom: 33px;
+  padding: 10px 0;
+}
+.tooltip__wrap .game__valid-item:after,
+.tooltip__wrap .game__valid-item:before{
+  display: none;
+}
+.tooltip__wrap .game__valid-item{
+  font-size: 12px;
+  color: #fff;
+}
+.game__info .tooltip__wrap{
+  bottom: 20px;
+  width: 122px;
+  left: -53px;
+}
+.categories__filter-icon .tooltip__wrap{
+
+}
+.filter-reset.tooltip__wrap{
+  width: 152px;
+  left: 126px;
+  bottom: -18px;
+}
+.categories__menu .tooltip__wrap{
+  width: 152px;
+  bottom: 23px;
+  left: -65px;
+}
+
+@media (min-width: $tablet-portrait) {
+
+}
+
+@media (min-width: $tablet-landscape) {
+
+}

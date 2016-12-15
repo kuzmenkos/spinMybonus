@@ -1,0 +1,357 @@
+.location{
+  width: 19px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: top;
+  text-indent: -5000px;
+  background: url("../img/flags.png") no-repeat;
+}
+.icons_default{background-position: -324px -74px;} /* default flag if country unrecognized */
+.icons_iran{background-position: 0 0;}
+.icons_iran_bw{background-position: 0 -225px;}
+.icons_malaysia{background-position: -24px 0;}
+.icons_malaysia_bw{background-position: -24px -225px;}
+.icons_oman{background-position: -49px 0;}
+.icons_oman_bw{background-position: -49px -225px;;}
+.icons_philippines{background-position: -73px 0;}
+.icons_philippines_bw{background-position: -73px -225px;;}
+.icons_jordan{background-position: -98px 0;}
+.icons_jordan_bw{background-position: -98px -225px;;}
+.icons_uzbekistan{background-position: -122px 0;}
+.icons_uzbekistan_bw{background-position: -122px -225px;;}
+.icons_china{background-position: -147px 0;}
+.icons_china_bw{background-position: -147px -225px;;}
+.icons_kuwait{background-position: -172px 0;}
+.icons_kuwait_bw{background-position: -172px -225px;;}
+.icons_north_korea{background-position: -197px 0;}
+.icons_north_korea_bw{background-position: -197px -225px;;}
+.icons_uganda{background-position: -222px 0;}
+.icons_uganda_bw{background-position: -222px -225px;;}
+.icons_south_sudan{background-position: -247px 0;}
+.icons_south_sudan_bw{background-position: -247px -225px;;}
+.icons_guinea{background-position: -272px 0;}
+.icons_guinea_bw{background-position: -272px -225px;;}
+.icons_zimbabwe{background-position: -299px 0;}
+.icons_zimbabwe_bw{background-position: -299px -225px;;}
+.icons_benin{background-position: -323px 0;}
+.icons_benin_bw{background-position: -323px -225px;;}
+.icons_ghana{background-position: -348px 0;}
+.icons_ghana_bw{background-position: -348px -225px;;}
+
+.icons_israel{background-position: 0 -20px;}
+.icons_israel_bw{background-position: 0 -244px;}
+.icons_laos{background-position: -24px -20px;} /* laos? */
+.icons_laos_bw{background-position: -24px -244px;} /* laos? */
+.icons_nepal{background-position: -49px -20px;}
+.icons_nepal_bw{background-position: -49px -244px;}
+.icons_yemen{background-position: -73px -20px;}
+.icons_yemen_bw{background-position: -73px -244px;}
+.icons_thailand{background-position: -98px -20px;}
+.icons_thailand_bw{background-position: -98px -244px;}
+.icons_tajikistan{background-position: -122px -20px;}
+.icons_tajikistan_bw{background-position: -122px -244px;}
+.icons_japan{background-position: -147px -20px;}
+.icons_japan_bw{background-position: -147px -244px;}
+.icons_lebanon{background-position: -172px -20px;}
+.icons_lebanon_bw{background-position: -172px -244px;}
+.icons_turkmenistan{background-position: -197px -20px;}
+.icons_turkmenistan_bw{background-position: -197px -244px;}
+.icons_burundi{background-position: -222px -20px;}
+.icons_burundi_bw{background-position: -222px -244px;}
+.icons_niger{background-position: -247px -20px;}
+.icons_niger_bw{background-position: -247px -244px;}
+.icons_botswana{background-position: -272px -20px;}
+.icons_botswana_bw{background-position: -272px -244px;}
+.icons_canary_islands{background-position: -299px -18px;} /* missing in db */
+.icons_canary_islands_bw{background-position: -299px -244px;} /* missing in db */
+.icons_mali{background-position: -323px -18px;}
+.icons_mali_bw{background-position: -323px -244px;}
+.icons_sudan{background-position: -348px -18px;}
+.icons_sudan_bw{background-position: -348px -244px;}
+
+.icons_syria{background-position: 0 -39px;}
+.icons_syria_bw{background-position: 0 -262px;}
+.icons32{background-position: -24px -39px;}
+.icons32_bw{background-position: -24px -262px;}
+.icons_33{background-position: -49px -39px;}
+.icons_33_bw{background-position: -49px -262px;}
+.icons_mongolia{background-position: -73px -39px;}
+.icons_mongolia_bw{background-position: -73px -262px;}
+.icons_burma{background-position: -98px -39px;}
+.icons_burma_bw{background-position: -98px -262px;}
+.icons_south_korea{background-position: -122px -39px;}
+.icons_south_korea_bw{background-position: -122px -262px;}
+.icons_pakistan{background-position: -147px -39px;}
+.icons_pakistan_bw{background-position: -147px -262px;}
+.icons_saudi_arabia{background-position: -172px -39px;}
+.icons_saudi_arabia_bw{background-position: -172px -262px;}
+.icons_united_arab_emirates{background-position: -197px -39px;}
+.icons_united_arab_emirates_bw{background-position: -197px -262px;}
+.icons_cyprus{background-position: -222px -39px;}
+.icons_cyprus_bw{background-position: -222px -262px;}
+.icons_namibia{background-position: -247px -39px;}
+.icons_namibia_bw{background-position: -247px -262px;}
+.icons_tunisia{background-position: -272px -39px;}
+.icons_tunisia_bw{background-position: -272px -262px;}
+.icons_somalia{background-position: -299px -37px;}
+.icons_somalia_bw{background-position: -299px -262px;}
+.icons_tanzania{background-position: -323px -37px;}
+.icons_tanzania_bw{background-position: -323px -262px;}
+.icons_congo{background-position: -348px -37px;}
+.icons_congo_bw{background-position: -348px -262px;}
+
+.icons_indonesia{background-position: 0 -56px;} /* same as monaco */
+.icons_indonesia_bw{background-position: 0 -281px;} /* same as monaco */
+.icons_india{background-position: -24px -56px;}
+.icons_india_bw{background-position: -24px -281px;}
+.icons_iraq{background-position: -49px -56px;}
+.icons_iraq_bw{background-position: -49px -281px;}
+.icons_armenia{background-position: -73px -56px;}
+.icons_armenia_bw{background-position: -73px -281px;}
+.icons_vietnam{background-position: -98px -56px;}
+.icons_vietnam_bw{background-position: -98px -281px;}
+.icons_singapore{background-position: -122px -56px;}
+.icons_singapore_bw{background-position: -122px -281px;}
+.icons_kyrgyzstan{background-position: -147px -56px;}
+.icons_kyrgyzstan_bw{background-position: -147px -281px;}
+.icons_bangladesh{background-position: -172px -56px;}
+.icons_bangladesh_bw{background-position: -172px -281px;}
+.icons_afghanistan{background-position: -197px -56px;}
+.icons_afghanistan_bw{background-position: -197px -281px;}
+.icons_libya{background-position: -222px -56px;}
+.icons_libya_bw{background-position: -222px -281px;}
+.icons_cameroon{background-position: -247px -56px;}
+.icons_cameroon_bw{background-position: -247px -281px;}
+.icons_zambia{background-position: -272px -55px;}
+.icons_zambia_bw{background-position: -272px -281px;}
+.icons_senegal{background-position: -299px -54px;}
+.icons_senegal_bw{background-position: -299px -281px;}
+.icons_sierra_leone{background-position: -323px -54px;}
+.icons_sierra_leone_bw{background-position: -323px -281px;}
+.icons_gambia{background-position: -348px -54px;}
+.icons_gambia_bw{background-position: -348px -281px;}
+
+.icons_south_africa{background-position: 0 -76px;}
+.icons_south_africa_bw{background-position: 0 -299px;}
+.icons_togo{background-position: -24px -76px;}
+.icons_togo_bw{background-position: -24px -299px;}
+.icons_algeria{background-position: -49px -76px;}
+.icons_algeria_bw{background-position: -49px -299px;}
+.icons_central_african_republic{background-position: -73px -76px;}
+.icons_central_african_republic_bw{background-position: -73px -299px;}
+.icons_ethiopia{background-position: -98px -76px;}
+.icons_ethiopia_bw{background-position: -98px -299px;}
+.icons_egypt{background-position: -122px -76px;}
+.icons_egypt_bw{background-position: -122px -299px;}
+.icons_australia{background-position: -147px -76px;}
+.icons_australia_bw{background-position: -147px -299px;}
+.icons_new_caledonia{background-position: -172px -76px;}
+.icons_new_caledonia_bw{background-position: -172px -299px;}
+.icons_french_polynesia{background-position: -197px -76px;}
+.icons_french_polynesia_bw{background-position: -197px -299px;}
+.icons_poland{background-position: -222px -76px;}
+.icons_poland_bw{background-position: -222px -299px;}
+.icons_romania{background-position: -247px -76px;} /* same as chad */
+.icons_romania_bw{background-position: -247px -299px;} /* same as chad */
+.icons_estonia{background-position: -272px -75px;}
+.icons_estonia_bw{background-position: -272px -299px;}
+.icons_bulgaria{background-position: -299px -74px;}
+.icons_bulgaria_bw{background-position: -299px -299px;}
+.icons_macedonia{background-position: -323px -74px;}
+.icons_macedonia_bw{background-position: -323px -299px;}
+.icons_italy{background-position: -348px -74px;}
+.icons_italy_bw{background-position: -348px -299px;}
+
+.icons_mozambique{background-position: 0 -94px;}
+.icons_mozambique_bw{background-position: 0 -318px;}
+.icons_somaliland{background-position: -24px -94px;}
+.icons_somaliland_bw{background-position: -24px -318px;}
+.icons_chad{background-position: -49px -94px;} /* same as romania */
+.icons_chad_bw{background-position: -49px -318px;} /* same as romania */
+.icons_rwanda{background-position: -73px -94px;}
+.icons_rwanda_bw{background-position: -73px -318px;}
+.icons_liberia{background-position: -98px -94px;}
+.icons_liberia_bw{background-position: -98px -318px;}
+.icons_burkina_faso{background-position: -122px -94px;}
+.icons_burkina_faso_bw{background-position: -122px -318px;}
+.icons_vanuatu{background-position: -147px -94px;}
+.icons_vanuatu_bw{background-position: -147px -318px;}
+.icons_new_zealand{background-position: -172px -94px;}
+.icons_new_zealand_bw{background-position: -172px -318px;}
+.icons_papua_new_guinea{background-position: -197px -94px;}
+.icons_papua_new_guinea_bw{background-position: -197px -318px;}
+.icons_ukraine{background-position: -222px -94px;}
+.icons_ukraine_bw{background-position: -222px -318px;}
+.icons_turkey{background-position: -247px -94px;}
+.icons_turkey_bw{background-position: -247px -318px;}
+.icons_iceland{background-position: -272px -94px;}
+.icons_iceland_bw{background-position: -272px -318px;}
+.icons_slovenia{background-position: -299px -93px;}
+.icons_slovenia_bw{background-position: -299px -318px;}
+.icons_monaco{background-position: -323px -93px;}
+.icons_monaco_bw{background-position: -323px -318px;}
+.icons_bosnia_and_herzegovina{background-position: -348px -93px;}
+.icons_bosnia_and_herzegovina_bw{background-position: -348px -318px;}
+
+.icons_congo{background-position: 0 -112px;}
+.icons_congo_bw{background-position: 0 -336px;}
+.icons_the_democratic_republic_of_the_congo{background-position: 0 -112px;} /* same as congo */
+.icons_the_democratic_republic_of_the_congo_bw{background-position: 0 -336px;} /* same as congo */
+.icons92{background-position: -24px -112px;} /* ? */
+.icons92_bw{background-position: -24px -336px;} /* ? */
+.icons_morocco{background-position: -49px -112px;}
+.icons_morocco_bw{background-position: -49px -336px;}
+.icons_angola{background-position: -73px -112px;}
+.icons_angola_bw{background-position: -73px -336px;}
+.icons_madagascar{background-position: -98px -112px;}
+.icons_madagascar_bw{background-position: -98px -336px;}
+.icons_nigeria{background-position: -122px -112px;}
+.icons_nigeria_bw{background-position: -122px -336px;}
+.icons_fiji{background-position: -147px -112px;}
+.icons_fiji_bw{background-position: -147px -336px;}
+.icons_solomon_islands{background-position: -172px -112px;}
+.icons_solomon_islands_bw{background-position: -172px -336px;}
+.icons99{background-position: -197px -112px;} /* ? */
+.icons99_bw{background-position: -197px -336px;} /* ? */
+.icons_luxembourg{background-position: -222px -112px;}
+.icons_luxembourg_bw{background-position: -222px -336px;}
+.icons_serbia{background-position: -247px -112px;}
+.icons_serbia_bw{background-position: -247px -336px;}
+.icons_hungary{background-position: -272px -112px;}
+.icons_hungary_bw{background-position: -272px -336px;}
+.icons_moldova{background-position: -299px -111px;}
+.icons_moldova_bw{background-position: -299px -336px;}
+.icons_montenegro{background-position: -323px -111px;}
+.icons_montenegro_bw{background-position: -323px -336px;}
+.icons_sweden{background-position: -348px -111px;}
+.icons_sweden_bw{background-position: -348px -336px;}
+
+.icons_malawi{background-position: 0 -132px;}
+.icons_malawi_bw{background-position: 0 -355px;}
+.icons_mauritius{background-position: -24px -132px;}
+.icons_mauritius_bw{background-position: -24px -355px;}
+.icons_eritrea{background-position: -49px -132px;}
+.icons_eritrea_bw{background-position: -49px -355px;}
+.icons_lesotho{background-position: -73px -132px;}
+.icons_lesotho_bw{background-position: -73px -355px;}
+.icons_cote_divoire{background-position: -98px -132px;}
+.icons_cote_divoire_bw{background-position: -98px -355px;}
+.icons_kenya{background-position: -122px -132px;}
+.icons_kenya_bw{background-position: -122px -355px;}
+.icons_samoa{background-position: -147px -132px;}
+.icons_samoa_bw{background-position: -147px -355px;}
+.icons_micronesia{background-position: -172px -132px;}
+.icons_micronesia_bw{background-position: -172px -355px;}
+.icons114{background-position: -197px -132px;} /* ? */
+.icons114_bw{background-position: -197px -355px;} /* ? */
+.icons_switzerland{background-position: -222px -132px;}
+.icons_switzerland_bw{background-position: -222px -355px;}
+.icons_kosovo{background-position: -247px -132px;}
+.icons_kosovo_bw{background-position: -247px -355px;}
+.icons_france{background-position: -272px -132px;}
+.icons_france_bw{background-position: -272px -355px;}
+.icons_czech_republic{background-position: -299px -130px;}
+.icons_czech_republic_bw{background-position: -299px -355px;}
+.icons_belarus{background-position: -323px -130px;}
+.icons_belarus_bw{background-position: -323px -355px;}
+.icons_austria{background-position: -348px -130px;}
+.icons_austria_bw{background-position: -348px -355px;}
+
+.icons_united_kingdom{background-position: 0 -151px;}
+.icons_united_kingdom_bw{background-position: 0 -372px;}
+.icons_greece{background-position: -24px -151px;}
+.icons_greece_bw{background-position: -24px -372px;}
+.icons_finland{background-position: -49px -151px;}
+.icons_finland_bw{background-position: -49px -372px;}
+.icons124{background-position: -73px -150px;} /* European Union missing in db */
+.icons124_bw{background-position: -73px -372px;} /* European Union missing in db */
+.icons_norway{background-position: -98px -150px;} /* Also Bouvet Island */
+.icons_norway_bw{background-position: -98px -372px;} /* Also Bouvet Island */
+.icons_lithuania{background-position: -122px -150px;}
+.icons_lithuania_bw{background-position: -122px -372px;}
+.icons_equador{background-position: -147px -150px;}
+.icons_equador_bw{background-position: -147px -372px;}
+.icons_paraguay{background-position: -172px -150px;}
+.icons_paraguay_bw{background-position: -172px -372px;}
+.icons_uruguay{background-position: -197px -150px;}
+.icons_uruguay_bw{background-position: -197px -372px;}
+.icons_united_states{background-position: -222px -149px;}
+.icons_united_states_bw{background-position: -222px -372px;}
+.icons_jamaica{background-position: -247px -149px;}
+.icons_jamaica_bw{background-position: -247px -372px;}
+.icons_honduras{background-position: -272px -149px;}
+.icons_honduras_bw{background-position: -272px -372px;}
+
+.icons_slovakia{background-position: 0 -169px;}
+.icons_slovakia_bw{background-position: 0 -392px;}
+.icons_liechtenstein{background-position: -24px -169px;}
+.icons_liechtenstein_bw{background-position: -24px -392px;}
+.icons_netherlands{background-position: -49px -169px;}
+.icons_netherlands_bw{background-position: -49px -392px;}
+.icons_ireland{background-position: -73px -168px;}
+.icons_ireland_bw{background-position: -73px -392px;}
+.icons_latvia{background-position: -98px -168px;}
+.icons_latvia_bw{background-position: -98px -392px;}
+.icons_croatia{background-position: -122px -168px;}
+.icons_croatia_bw{background-position: -122px -392px;}
+.icons_bolivia{background-position: -147px -168px;}
+.icons_bolivia_bw{background-position: -147px -392px;}
+.icons_argentina{background-position: -172px -168px;}
+.icons_argentina_bw{background-position: -172px -392px;}
+.icons_suriname{background-position: -197px -168px;}
+.icons_suriname_bw{background-position: -197px -392px;}
+.icons_haiti{background-position: -222px -167px;}
+.icons_haiti_bw{background-position: -222px -392px;}
+.icons_canada{background-position: -247px -167px;}
+.icons_canada_bw{background-position: -247px -392px;}
+.icons_dominican_republic{background-position: -272px -167px;}
+.icons_dominican_republic_bw{background-position: -272px -392px;}
+
+.icons_kazakhstan{background-position: 0 -188px;}
+.icons_kazakhstan_bw{background-position: 0 -411px;}
+.icons_germany{background-position: -24px -188px;}
+.icons_germany_bw{background-position: -24px -411px;}
+.icons_azerbaijan{background-position: -49px -188px;}
+.icons_azerbaijan_bw{background-position: -49px -411px;}
+.icons_portugal{background-position: -73px -187px;} /* ? */
+.icons_portugal_bw{background-position: -73px -411px;} /* ? */
+.icons_georgia{background-position: -98px -187px;}
+.icons_georgia_bw{background-position: -98px -411px;}
+.icons_malta{background-position: -122px -187px;}
+.icons_malta_bw{background-position: -122px -411px;}
+.icons_brazil{background-position: -147px -187px;}
+.icons_brazil_bw{background-position: -147px -411px;}
+.icons_venezuela{background-position: -172px -187px;}
+.icons_venezuela_bw{background-position: -172px -411px;}
+.icons_peru{background-position: -197px -187px;} /* ? */
+.icons_peru_bw{background-position: -197px -411px;} /* ? */
+.icons_guatemala{background-position: -222px -186px;}
+.icons_guatemala_bw{background-position: -222px -411px;}
+.icons_cuba{background-position: -247px -186px;}
+.icons_cuba_bw{background-position: -247px -411px;}
+.icons_el_salvador{background-position: -272px -186px;}
+.icons_el_salvador_bw{background-position: -272px -411px;}
+.icons_spain{background-position: 0 -206px;}
+.icons_spain_bw{background-position: 0 -429px;}
+.icons_albania{background-position: -24px -206px;}
+.icons_albania_bw{background-position: -24px -429px;}
+.icons_russia{background-position: -49px -206px;}
+.icons_russia_bw{background-position: -49px -429px;}
+.icons_denmark{background-position: -73px -205px;}
+.icons_denmark_bw{background-position: -73px -429px;}
+.icons_andorra{background-position: -98px -205px;}
+.icons_andorra_bw{background-position: -98px -429px;}
+.icons_belgium{background-position: -122px -205px;}
+.icons_belgium_bw{background-position: -122px -429px;}
+.icons_chile{background-position: -147px -205px;}
+.icons_chile_bw{background-position: -147px -429px;}
+.icons_guyana{background-position: -172px -205px;}
+.icons_guyana_bw{background-position: -172px -429px;}
+.icons_colombia{background-position: -197px -205px;}
+.icons_colombia_bw{background-position: -197px -429px;}
+.icons_nicaragua{background-position: -222px -204px;}
+.icons_nicaragua_bw{background-position: -222px -429px;}
+.icons_mexico{background-position: -247px -204px;}
+.icons_mexico_bw{background-position: -247px -429px;}
+.icons_costa_rica{background-position: -272px -204px;}
+.icons_costa_rica_bw{background-position: -272px -429px;}

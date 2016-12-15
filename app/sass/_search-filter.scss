@@ -1,0 +1,114 @@
+.search-filter{
+  display: block !important;
+}
+.search-filter__wrap{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 26px;
+   font-size: 11px;
+   line-height: 14px;
+}
+.search-filter__title{
+  margin-bottom: 20px;
+  color:#fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #fff;
+}
+.search-filter__item{
+  display: inline-flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 23%;
+  padding: 10px 0 10px;
+  color: #c6c7c7;
+  background-color: #032347;
+  text-align: center;
+  transition: background .3s ease, color .3s ease;
+  -webkit-transition: background .3s ease, color .3s ease;
+  cursor: pointer;
+}
+.search-filter__item img{
+
+}
+.search-filter__item:hover,
+.search-filter__item.active{
+  background-color: #0072bc;
+  color:#fefefe;
+}
+.search-filter__wrong{
+  font-size: 16px;
+  color:#a5a7ab;
+  text-align: center;
+}
+.search-filter__wrong-enter{
+  font-size: 16px;
+  color:#fff;
+  text-align: center;
+}
+.search-filter__wrong-enter span{
+  color:#598cb2;
+}
+
+@media (min-width: $tablet-portrait) {
+  .search-filter{
+    padding: 0 20px;
+  }
+  .search-filter__title {
+    margin-bottom: 30px;
+    line-height: 22px;
+    padding-left: 4px;
+  }
+  .search-filter__item{
+    flex-flow: row wrap;
+    padding: 11px 0;
+  }
+  .search-filter__wrap {
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .search-filter__item img{
+    margin-right: 10px;
+  }
+  .search-filter__wrong{
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  .search-filter__wrong-enter{
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+}
+
+@media (min-width: $tablet-landscape) {
+  .search-filter {
+    padding: 0 15px 0 0;
+  }
+  .search-filter__item {
+    padding: 7px 14px;
+    margin-right: 6px;
+    width: auto;
+  }
+  .search-filter__wrap {
+    line-height: 17px;
+    justify-content: flex-start;
+  }
+  .search-filter__title {
+    margin-bottom: 15px;
+    line-height: 22px;
+    padding-left: 1px;
+  }
+  .search-filter__item img {
+    margin-right: 11px;
+  }
+  .search-filter__wrong-enter {
+    padding-top: 26px;
+    padding-left: 17px;
+    font-size: 18px;
+  }
+}

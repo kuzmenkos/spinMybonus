@@ -1,0 +1,103 @@
+.btn{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 40px;
+  width: 130px;
+  border: none;
+  background-color: rgb(207, 19, 19);
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  line-height: 40px;
+  color: #fcfcfc;
+  text-align: center;
+}
+.btn_1{
+  margin-left: 15px;
+  background-color: rgb(0, 114, 188);
+}
+.btn:hover{
+
+}
+.casinos-info .btn > * {
+  position: relative;
+  z-index: 2;
+}
+.casinos-info .btn_green,
+.casinos-info .btn_grey{
+  display: block;
+  vertical-align: top;
+  width: 90px;
+  height: 31px;
+  margin: 0 auto 11px;
+  padding: 7px 0 0;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 700;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px #8f8f8f;
+}
+.casinos-info .btn_green {
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
+  border-bottom: 3px solid #00ba33;
+}
+.casinos-info .btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  background: linear-gradient(to top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.3) 50%,rgba(255,255,255,0.1) 51%,rgba(255,255,255,0.3) 100%);
+}
+.casinos-info .btn_green {
+  background: #29a00d;
+  background-image: repeating-linear-gradient(#128c00 4px, #128c00 8px);
+}
+.casinos-info .btn_grey {
+  background: #a4a5a6;
+  background-image: repeating-linear-gradient(#98999a 4px, #98999a 8px);
+}
+.casinos-info .btn_green:before {
+  background-image: linear-gradient( to top, rgba(81,157,79,0.6) 0%, rgba(17,133,1,0.6) 15.33%, rgba(31,157,0,0.6) 50.12%, rgba(67,175,35,0.6) 51.68%, rgba(105,209,63,0.8) 82.86%, rgba(187,239,167,1) 100%);
+}
+.casinos-info .btn_grey:before {
+  background-image: linear-gradient( to top, rgba(173,173,175,0.4) 0%, rgba(149,149,151,0.4) 15.33%, rgba(165,167,167,0.6) 50.12%, rgba(179,179,179,0.6) 51.68%, rgba(215,215,215,0.8) 82.86%, rgba(235,237,237,1) 100%);
+}
+.casinos-info .btn_green:hover {
+  color: #fff;
+  border-bottom: none;
+}
+.casinos-info .btn_grey div,
+.casinos-info .btn_grey span{
+  color: #000;
+  text-transform: uppercase;
+}
+.casinos-info .btn:hover:before {
+  background: linear-gradient(to top, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.3) 51%,rgba(255,255,255,0.5) 100%);
+}
+.casinos-info .btn_green:hover:before {
+  background-image: linear-gradient( to top, rgba(187,239,167,1) 0%, rgba(105,209,63,0.8) 15.33%, rgba(67,175,35,0.6) 50.12%, rgba(31,157,0,0.6) 51.68%, rgba(17,133,1,0.6) 82.86%, rgba(81,157,79,0.6) 100%);
+}
+.casinos-info .btn_grey:hover:before {
+  background-image: linear-gradient( to top, rgba(235,237,237,1) 0%, rgba(215,215,215,0.8) 15.33%, rgba(179,179,179,0.6) 50.12%, rgba(165,167,167,0.6) 51.68%, rgba(149,149,151,0.4) 82.86%, rgba(173,173,175,0.4) 100%);
+}
+
+@media (min-width: $tablet-portrait) {
+  .btn {
+    height: 25px;
+    width: 86px;
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .btn_1 {
+    margin-left: 3px;
+  }
+}

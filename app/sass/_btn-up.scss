@@ -1,0 +1,31 @@
+.btn-up{
+  display: none;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  right: 18px;
+  bottom: 100px;
+  border-radius: 50%;
+  background: url("../img/btn-up.png") no-repeat center;
+  background-size: contain;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 5;
+}
+/*.btn-up:hover{
+  opacity: 0.8;
+}*/
+
+@media (min-width: $tablet-portrait) {
+  .btn-up {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: $tablet-landscape) {
+  .btn-up {
+    width: 77px;
+    height: 77px;
+  }
+}

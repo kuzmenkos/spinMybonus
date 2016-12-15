@@ -1,0 +1,67 @@
+.callback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  padding: 5px 10px;
+
+  &__phone{
+    display: block;
+    margin: 3px 9px 3px 0;
+    border-bottom: 1px solid $callback-phone-border;
+    color: $callback-phone;
+    font-weight: 300;
+    transition: border-bottom-color .3s ease, opacity .3s ease;
+    -webkit-transition: border-bottom-color .3s ease, opacity .3s ease;
+
+    &:hover{
+      border-bottom-color: transparent;
+      opacity: .7;
+    }
+
+    strong {
+      font-weight: 500;
+    }
+
+  }
+
+}
+
+@media (min-width: $tablet-portrait) {
+
+  .callback {
+    position: absolute;
+    top: 14px;
+    right: 53px;
+    width: auto;
+    padding: 0;
+
+    &__phone{
+      font-size: 1.44em;
+
+      &_2{
+        font-size: 1.28em;
+      }
+
+    }
+
+  }
+
+}
+
+@media (min-width: $desktop) {
+
+  .callback {
+    right: 10px;
+  }
+
+}
+
+@media (min-width: $hd) {
+
+  .callback {
+    right: 0;
+  }
+
+}

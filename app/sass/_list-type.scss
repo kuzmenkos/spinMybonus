@@ -1,0 +1,290 @@
+.list-type__header,
+.first-row,
+.second-row{
+  display: none;
+}
+@media (min-width: $tablet-portrait) {
+  .list-type__header,
+  .first-row,
+  .second-row{
+    display: flex;
+  }
+  .list-type__header>div,
+  .first-row>div,
+  .second-row>div{
+    margin-right: 4px;
+  }
+  .list-type{
+    margin-bottom: 11px;
+  }
+  .list-type>li{
+    border-bottom: 1px solid #000d2a;
+  }
+  .list-type__header{
+    padding: 12px 8px 7px;
+    background: #001f44;
+  }
+  .list-type__item{
+    padding: 10px 8px 3px;
+    background: #001b38;
+  }
+  .list-type__item .list-type__title-name {
+    display: inline-block;
+    color: #0072bc;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-weight: 700;
+    transition: color .3s ease;
+    -webkit-transition: color .3s ease;
+  }
+  .list-type__item .list-type__title-name:hover{
+    color: #fff;
+  }
+  .list-type__spins{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+  }
+  .popup .list-type__spins {
+    width: 32%;
+  }
+  .list-type__spins .game__valid-wrong,
+  .list-type__spins .game__valid-right{
+    top: 11px;
+    left: 2px;
+  }
+  .list-type__code{
+    display: inline-block;
+    vertical-align: top;
+    width: 19.9%;
+    margin-right: calc(1.1% + 4px) !important;
+  }
+  .list-type__code ul{
+    display: flex;
+  }
+  .list-type__code ul li{
+    margin-right: 4px;
+  }
+  .list-type__code .game__code-number{
+    padding-left: 3%;
+    text-align: left;
+  }
+  .list-type__slots{
+    display: inline-block;
+    vertical-align: top;
+    width: 18.3%;
+  }
+  .popup .list-type__slots {
+    width: 21.3%;
+  }
+  .list-type__wagering {
+    display: inline-block;
+    vertical-align: top;
+    width: 9%;
+  }
+  .list-type__deposit{
+    display: inline-block;
+    vertical-align: top;
+    width: 7.7%;
+  }
+  .list-type__expand{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 5%;
+    margin-right: 0 !important;
+  }
+  .list-type__info{
+    padding-left: 29px;
+    padding-bottom: 6px;
+    margin-bottom: 0;
+  }
+  .list-type__info .game__info-time:before {
+    width: 11px;
+  }
+  .list-type__name{
+    display: inline-block;
+    vertical-align: top;
+    min-height: 22px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .list-type__item .list-type__name{
+    line-height: 24px;
+    color: #bfbfbf;
+    text-transform: none;
+  }
+  .list-type__item .game__info li:before{
+    display: none;
+  }
+  .list-type__item .game__info li{
+    padding-left: 0;
+  }
+  .list-type__item .list-type__code ul li:last-child:after {
+    display: none;
+  }
+  .list-type__flag{
+    display: inline-block;
+    vertical-align: top;
+    width: 19px;
+    height: 14px;
+    margin-right: 7px;
+  }
+  .list-type__info:after{
+    display: none;
+  }
+  .list-type__info .game__info-time{
+    width: 31%;
+  }
+  .popup .list-type__info .game__info-time {
+    width: 34%;
+  }
+  .list-type__info .game__info-clicks{
+    width: 11.2%;
+  }
+  .list-type__info .game__info-days{
+    width: 11.2%;
+  }
+  .list-type__info li:after {
+    right: -10px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #747e8f;
+  }
+  .list-type__slots ul{
+    font-size: 12px;
+  }
+  .list-type__slots ul li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+  }
+  .list-type__slots ul li:after{
+    position: absolute;
+    right: -10px;
+    top: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #747e8f;
+    content: "";
+  }
+  .list-type__lines{
+    min-width: 28px;
+  }
+  .list-type__slots ul li:last-child:after{
+    display: none;
+  }
+  .list-type__code ul li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 31%;
+    font-size: 12px;
+  }
+  .list-type__code ul li:after{
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #abb1b9;
+    content: "";
+  }
+  .list-type__massage{
+    color: #bfbfbf;
+  }
+  .list-type__valid{
+    color: #64b30a;
+  }
+  .list-type__invalid{
+    color: #d0011b;
+  }
+  .list-type__header .list-type__massage:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 13px;
+    background: url(../img/massege.png) no-repeat center;
+    background-size: contain;
+    content: "";
+  }
+  .list-type__header .list-type__valid:before{
+    position: absolute;
+    z-index: 2;
+    top: 3px;
+    left: 4px;
+    width: 8px;
+    height: 3px;
+    border-radius: 0;
+    border-top: 3px solid #417505;
+    border-right: 3px solid #417505;
+    transform: rotate(138deg);
+    content: "";
+  }
+  .list-type__header .list-type__invalid:before,
+  .list-type__header .list-type__invalid:after {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 3px;
+    height: 10px;
+    border-radius: 0;
+    background: #d0011b;
+    content: "";
+  }
+  .list-type__header .list-type__invalid:before{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .list-type__header .list-type__invalid:after{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .list-type__expand-btn{
+    position: absolute;
+    border: 1px solid #0072bc;
+    width: 30px;
+    left: 50%;
+    height: 24px;
+    margin-top: 9px;
+    margin-left: -15px;
+    cursor: pointer;
+  }
+  .list-type__expand-btn:before{
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 11px;
+    height: 12px;
+    background: url("../img/down-double-blue.png") no-repeat center;
+    content: '';
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+  }
+  .list-type__expand-btn:hover:before{
+    margin-top: 3px;
+  }
+  .list-type__item.active .list-type__expand-btn:before{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+  .list-type__title{
+    position: relative;
+    padding-left: 29px;
+    font-weight: 700;
+  }
+  .list-type__title-name{
+    color: #0072bc;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
